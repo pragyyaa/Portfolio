@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  }
+  html, body, #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-gradient-to-br from-neutral-900 via-neutral-800 to-neutral-900 text-white font-sans;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.glass {
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-6;
+}
+
+.neon {
+  text-shadow: 0 2px 8px rgba(124,58,237,0.25);
+}
+
+/* smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#071025" />
+  <circle cx="200" cy="200" r="120" fill="#7c3aed" opacity="0.14" />
+  <text x="120" y="200" fill="#fff" font-size="48" font-family="Inter, sans-serif">Taskify</text>
+  <text x="120" y="260" fill="#cbd5e1" font-size="20" font-family="Inter, sans-serif">React • Redux • Socket.IO</text>
+</svg>
