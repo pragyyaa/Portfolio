@@ -1,5 +1,6 @@
 import { siteMeta } from '../data'
-import { FormEvent, useState } from 'react'
+import { useState } from 'react'
+import type { FormEvent } from 'react'
 
 function encode(data: Record<string, string>) {
   return Object.keys(data)

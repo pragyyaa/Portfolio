@@ -52,7 +52,7 @@ export const projects = [
 ]
 
 // No formal industry experience listed in the resume; keep experience empty or use education instead.
-export const experience = []
+export const experience: any[] = []
 
 export const education = [
   {

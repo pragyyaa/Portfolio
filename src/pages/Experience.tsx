@@ -6,7 +6,7 @@ export default function Experience(){
     <div className="container pt-28">
       <h1 className="text-3xl font-bold">Experience</h1>
       <div className="mt-6 space-y-6">
-        {experience.map((e, idx) => (
+  {experience.map((e: any, idx: number) => (
           <motion.div
             key={e.company ?? idx}
             initial={{ opacity: 0, x: -10 }}
@@ -23,7 +23,7 @@ export default function Experience(){
               </div>
             </div>
             <ul className="mt-3 list-disc list-inside text-neutral-300">
-              {e.bullets.map((b, i) => (
+              {e.bullets?.map((b: any, i: number) => (
                 <li key={i}>{b}</li>
               ))}
             </ul>
