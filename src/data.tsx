@@ -1,11 +1,11 @@
-// Richer sample data - replace with your real resume details.
+
 export const siteMeta = {
-  name: 'Prakhar Shukla',
+  name: 'Pragya Sood',
   role: 'Computer Science Student / Web Developer',
   location: 'Bengaluru, India',
-  email: 'prakharshukla2323@gmail.com',
-  github: 'https://github.com/dashboard',
-  linkedin: 'https://www.linkedin.com/in/prakhar-shukla-833881370',
+  email: '22btrcn209@jainuniversity.ac.in',
+  github: 'https://github.com/pragyyaa',
+  linkedin: 'https://www.linkedin.com/in/pragya-sood2004/',
   resume: '/resume.pdf',
   about: `Final-year B.Tech Computer Science student at Jain University with a strong foundation in software development, data structures, and backend engineering. Experienced in building scalable web platforms and automation tools using technologies like Node.js, Express.js, and MongoDB. Throughout my academic journey, I’ve consistently combined strong theoretical knowledge with hands-on experience in full-stack development, backend systems, and machine learning integration. I enjoy collaborating on technical challenges, building optimized backend systems, and improving user experience through robust application logic. Currently, I’m seeking full-time roles in Software Development, Backend Engineering, or ML/AI domains where I can contribute, grow, and help drive meaningful impact within innovative teams.`
 }
@@ -23,36 +23,43 @@ export const skills = [
 
 export const projects = [
   {
-    id: 'spam-sms-classifier',
-    title: 'Spam SMS Classifier',
-    description: 'A machine learning pipeline that classifies SMS messages as spam or not-spam using NLP preprocessing and a Naive Bayes model. Processed over 5,000 labeled samples and achieved high precision/recall.',
-    tech: ['Python', 'scikit-learn', 'NLP', 'TF-IDF'],
-    github: '',
+    id: 'p-stt-edge',
+    title: 'Real-time Speech-to-Text (STT) — Edge (Vosk/Kaldi)',
+    description: 'Fine-tuned Vosk (Kaldi-based) STT model for Indian English, deployed for offline edge inference. Worked with audio preprocessing, model fine-tuning, and on-device integration for a BRYCK AI edge device.',
+    tech: ['Vosk / Kaldi', 'Python', 'FFmpeg', 'Google Colab', 'Edge deployment'],
+    github: 'https://github.com/pragyaruchisood/stt-edge', // update or remove
     live: '',
-    thumb: '/images/projects/spam-sms-classifier.jpg'
+    thumb: '/images/projects/speech_to_text.png'
   },
   {
-    id: 'event-management-platform',
-    title: 'Event Management Platform',
-    description: 'Full-stack event registration platform with dynamic front-end and MongoDB backend; optimized registration flow and improved performance for large user loads.',
-    tech: ['HTML', 'CSS', 'JavaScript', 'MongoDB'],
-    github: '',
+    id: 'p-product-pricing',
+    title: 'Product Pricing System',
+    description: 'A MySQL-backed pricing system that calculates final product prices based on BOM, manufacturing value-add, yields, warranty, and market segment factors; role-based access for Superadmin.',
+    tech: ['MySQL', 'Node.js', 'Express', 'JS', 'REST APIs'],
+    github: 'https://github.com/pragyaruchisood/product-pricing-system',
     live: '',
-    thumb: '/images/projects/event-management-platform.jpg'
+    thumb: '/images/projects/product_pricing system.png'
   },
   {
-    id: 'mentorship-platform',
-    title: 'Mentorship Platform',
-    description: 'A mentorship matchmaking platform enabling mentor discovery, scheduling and responsive UI to connect learners with mentors.',
-    tech: ['HTML', 'CSS', 'JavaScript', 'MongoDB'],
-    github: '',
+    id: 'p-virtual-canvas',
+    title: 'Virtual Canvas — Air-Writing System (Computer Vision)',
+    description: 'Webcam-based air-writing/drawing application using computer vision to track finger motion, convert gestures into drawing/strokes, and export artwork — built as an HCI/interaction demo.',
+    tech: ['JavaScript', 'WebRTC', 'OpenCV / TensorFlow.js (optional)'],
+    github: 'https://github.com/pragyaruchisood/virtual-canvas',
     live: '',
-    thumb: '/images/projects/mentorship-platform.jpg'
-  }
+    thumb: '/images/projects/virtual_canva.png'
+  },
 ]
 
-// No formal industry experience listed in the resume; keep experience empty or use education instead.
-export const experience: any[] = []
+
+export const experience = [
+  {
+    Company: 'Tsecond, Bengaluru',
+    Role: 'Software Trainee',
+    period: 'Feb 2025 - July 2025',
+    details: 'Fine-tuned Vosk (Kaldi-based) STT model for Indian English, deployed for offline edge inference. Worked with audio preprocessing, model fine-tuning, and on-device integration for a BRYCK AI edge device.'
+  },
+]
 
 export const education = [
   {
@@ -62,17 +69,17 @@ export const education = [
     details: []
   },
   {
-    institution: 'Yugantar Public School',
+    institution: 'Deeksha College For Leaning, Bengaluru',
     degree: '12th Grade - Science Stream',
-    period: '2022',
+    period: '2020-2022',
     details: []
   }
 ]
 
 export const certifications = [
-  { id: 'cert-mysql', title: 'MySQL for Data Analytics & Business Intelligence', issuer: 'Coursera', year: 2024, img: '/assets/cert-performance.png' },
-  { id: 'cert-ml', title: 'Get Started with Machine Learning', issuer: 'Google', year: 2024, img: '/assets/cert-a11y.png' },
-  { id: 'cert-cyber', title: 'Cybersecurity for Everyone', issuer: '', year: 2025, img: '/assets/cert-performance.png' },
-  { id: 'cert-problem', title: 'Effective Problem-Solving and Decision-Making', issuer: '', year: 2022, img: '/assets/cert-a11y.png' }
+  { id: 'cert-mysql', title: 'Linux Fundamentals', issuer: 'Coursera', year: 2024, img: '/images/projects/linux_certi.png' },
+  { id: 'cert-ml', title: 'Machine Learning with Python', issuer: 'Google', year: 2024, img: '/images/projects/ml_certi.png' },
+  { id: 'cert-cyber', title: 'Cybersecurity for Everyone', issuer: '', year: 2025, img: '/images/projects/cyber_certi.png' },
+  { id: 'cert-problem', title: 'GenAI for Everyone', issuer: '', year: 2022, img: '/images/projects/gen_certi.png' }
 ]
 

@@ -11,7 +11,7 @@ export default function NavBar() {
   return (
     <header className="glass fixed w-full z-30">
       <div className="container flex items-center justify-between h-16">
-        <Link to="/" className="font-bold text-xl neon ml-1">Prakhar S</Link>
+        <Link to="/" className="font-bold text-xl neon ml-1">Pragya Sood</Link>
 
         <nav className="hidden md:flex gap-6 items-center">
           <NavLink to="/" className={({ isActive }) => LinkClass(isActive)}>Home</NavLink>

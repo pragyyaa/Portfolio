@@ -23,12 +23,12 @@ export default function Hero(){
 
               {/* portrait image */}
               <div className="relative z-20 w-48 h-48 md:w-72 md:h-72 rounded-full overflow-hidden bg-neutral-900 border border-neutral-700 flex items-center justify-center">
-                <img src="/images/profile.jpg" alt={`${siteMeta.name} portrait`} className="w-full h-full object-cover" />
+                <img src="/images/profile.png" alt={`${siteMeta.name} portrait`} className="w-full h-full object-cover" />
               </div>
 
               {/* decorative initials to the right (subtle) */}
               <div className="absolute right-6 md:right-12 text-center z-10">
-                <div className="hidden md:block text-6xl md:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-amber-400 to-orange-600 opacity-90">RS</div>
+                <div className="hidden md:block text-6xl md:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-amber-400 to-orange-600 opacity-90">PS</div>
               </div>
 
               {/* contact card (keeps same placement) */}
